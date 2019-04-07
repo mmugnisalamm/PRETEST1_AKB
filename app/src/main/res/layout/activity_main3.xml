@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main3Activity"
+    android:orientation="vertical"
+    android:paddingTop="50dp"
+    android:paddingHorizontal="30dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nama Panggilan Kamu"
+        android:textSize="25sp"
+        android:id="@+id/TVNama"
+        android:textColor="@android:color/black"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Contoh\t:\t Budi"
+        android:textSize="18sp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/ETNama"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Umur Kamu"
+        android:textSize="25sp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/TVUmur"
+        android:textColor="@android:color/black"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Contoh\t:\t 12"
+        android:textSize="18sp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/ETUmur"
+        android:inputType="number"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="bottom"
+        android:paddingBottom="35dp">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button"
+            android:text="Selanjutnya"
+            android:id="@+id/buttonSelanjutnya"/>
+
+    </RelativeLayout>
+
+
+</LinearLayout>
